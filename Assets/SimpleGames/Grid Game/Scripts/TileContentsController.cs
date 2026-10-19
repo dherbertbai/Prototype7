@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class TileContentsController : MonoBehaviour
@@ -29,6 +30,11 @@ public class TileContentsController : MonoBehaviour
         if (dest == null)
         {
             return;
+        }
+
+        if (Tile == Tile.Fell)
+        {
+            Die();
         }
 
         //If the tile I want to move into already has something inside of it

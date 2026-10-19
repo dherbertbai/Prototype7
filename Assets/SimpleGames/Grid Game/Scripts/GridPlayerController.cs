@@ -42,9 +42,9 @@ public class GridPlayerController : TileContentsController
         if (who is GridEnemyController)
         {
             //Kill them
-            who.Die();
+            //who.Die();
             //And then step into their space
-            SetTile(where);
+            //SetTile(where);
         }
     }
 }

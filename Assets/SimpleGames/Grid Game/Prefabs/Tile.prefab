@@ -229,6 +229,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Body: {fileID: 0}
+  Tile: {fileID: 1852864663362335830}
+  TilePrefab: {fileID: 4525989173864567540}
   Contents: {fileID: 0}
   X: 0
   Y: 0
+  rand: 0
+  mode: 0
+  timer: 0
